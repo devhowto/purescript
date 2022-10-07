@@ -1,0 +1,11 @@
+name: purescript
+title: PureScript
+version: 0.0.1
+start_page: index.adoc
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+    stem: '@'
+    table-caption: false
+nav:
+- modules/ROOT/nav.adoc
