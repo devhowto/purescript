@@ -1,15 +1,10 @@
--- vim: set tw=68:
-
 module TripletIsomorphic where
 
 {-
 
-```
 $ spago install strings
-```
 
 It will be added to `spago.dhall` as a dependency.
-
 
 -}
 

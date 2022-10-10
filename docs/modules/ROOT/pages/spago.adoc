@@ -1,0 +1,10 @@
+= Spago | PureScript
+
+Basically, do this:
+
+[source,shell-session]
+----
+$ nvm install --lts
+$ npm install --save-dev spago purescript
+$ npx spago init
+----

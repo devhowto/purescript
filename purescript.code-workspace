@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "src/fp-made-easier/ch02"
+		},
+		{
+			"path": "src/fp-made-easier/ch03"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../algdsts"
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"spago"
+		]
+	}
+}

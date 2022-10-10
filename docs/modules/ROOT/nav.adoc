@@ -1,4 +1,5 @@
 * xref:index.adoc[]
+* xref:spago.adoc[]
 * xref:repl.adoc[]
 * xref:functions.adoc[]
 * xref:types/index.adoc[]

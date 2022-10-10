@@ -1,7 +1,6 @@
 = Functional Programming Made Easier
 
-The book was written with PureScript 0.14 in mind, but I’m studying it
-with as of May 2022 with PureScript 0.15.
+The book was written with PureScript 0.14 in mind, but I’m studying it with as of May 2022 with PureScript 0.15.
 
 * https://discourse.purescript.org/t/purescript-v0-15-0-released/2989[PureScript
 v0.15.0 Released]

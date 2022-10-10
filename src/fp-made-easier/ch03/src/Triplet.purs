@@ -3,14 +3,9 @@
 module Triplet where
 
 {-
-
-```
 $ spago install strings
-```
 
 It will be added to `spago.dhall` as a dependency.
-
-
 -}
 
 import Prelude
@@ -19,8 +14,8 @@ import Data.Array (filter, length)
 import Data.String as String
 
 --
--- ‘a’, ‘b’ and ‘c’ are fully polymorphic. They can be any type
--- whatsoever.
+-- ‘a’, ‘b’ and ‘c’ are fully polymorphic. They can be
+-- any type whatsoever.
 --
 data Triplet a b c = Triplet a b c
 --
@@ -46,7 +41,7 @@ isVowel :: Char -> Boolean
 isVowel c = length (filter (\e -> e == c) ['a', 'e', 'i', 'o', 'u']) > 0
 
 --
--- Assume s is lowercase.
+-- Assume `s` is lowercase.
 --
 countVowels :: String -> Int
 countVowels s = length $ filter isVowel (toCharArray s)
