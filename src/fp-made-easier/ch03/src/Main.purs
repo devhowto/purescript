@@ -7,4 +7,6 @@ import Effect.Console (log)
 
 main :: Effect Unit
 main = do
-  log "🍝"
+  log "Ch03 🍝"
+  log "What?"
+

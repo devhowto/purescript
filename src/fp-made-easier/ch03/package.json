@@ -10,13 +10,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "16.15.1",
-    "npm": "8.12.1"
+    "node": "16.17.1",
+    "npm": "8.15.0"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "purescript": "^0.15.2",
+    "purescript": "^0.15.4",
+    "purescript-language-server": "^0.16.6",
     "purs-tidy": "^0.9.0",
     "spago": "^0.20.9"
   }
