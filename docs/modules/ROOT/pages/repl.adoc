@@ -32,11 +32,10 @@ The following commands are available:
 :paste       paste        Enter multiple lines, terminated by ^D
 :complete    <prefix>     Show completions for <prefix> as if pressing tab
 :print       <fn>         Set the repl's printing function to <fn> (which must be fully qualified)
+----
 
 Further information is available on the PureScript documentation
-repository:
-https://github.com/purescript/documentation/blob/master/guides/PSCi.md
-
+repository: link:https://github.com/purescript/documentation/blob/master/guides/PSCi.md[PSCi].
 
 == :type
 
@@ -86,7 +85,7 @@ We just need to import `range` and its synonym `..` from some module that offers
 :type 1 .. 3 List Int
 
 :type range 1 3 List Int
-____
+----
 
 The fact is that `..` is an infix synonym (or *alias* if you will) for `range`.
 
